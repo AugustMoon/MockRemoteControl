@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CF427BF1C5EE97D003426DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF427BE1C5EE97D003426DE /* AppDelegate.swift */; };
+		0CF427C11C5EE97D003426DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF427C01C5EE97D003426DE /* ViewController.swift */; };
+		0CF427C41C5EE97D003426DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF427C21C5EE97D003426DE /* Main.storyboard */; };
+		0CF427C61C5EE97D003426DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF427C51C5EE97D003426DE /* Assets.xcassets */; };
+		0CF427C91C5EE97D003426DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF427C71C5EE97D003426DE /* LaunchScreen.storyboard */; };
+		0CF427D41C5EE97D003426DE /* MockRemoteControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF427D31C5EE97D003426DE /* MockRemoteControlTests.swift */; };
+		0CF427DF1C5EE97D003426DE /* MockRemoteControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF427DE1C5EE97D003426DE /* MockRemoteControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CF427D01C5EE97D003426DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CF427B31C5EE97D003426DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CF427BA1C5EE97D003426DE;
+			remoteInfo = MockRemoteControl;
+		};
+		0CF427DB1C5EE97D003426DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CF427B31C5EE97D003426DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CF427BA1C5EE97D003426DE;
+			remoteInfo = MockRemoteControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CF427BB1C5EE97D003426DE /* MockRemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockRemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF427BE1C5EE97D003426DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0CF427C01C5EE97D003426DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CF427C31C5EE97D003426DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0CF427C51C5EE97D003426DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0CF427C81C5EE97D003426DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0CF427CA1C5EE97D003426DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CF427CF1C5EE97D003426DE /* MockRemoteControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockRemoteControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF427D31C5EE97D003426DE /* MockRemoteControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRemoteControlTests.swift; sourceTree = "<group>"; };
+		0CF427D51C5EE97D003426DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CF427DA1C5EE97D003426DE /* MockRemoteControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockRemoteControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CF427DE1C5EE97D003426DE /* MockRemoteControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRemoteControlUITests.swift; sourceTree = "<group>"; };
+		0CF427E01C5EE97D003426DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CF427B81C5EE97D003426DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF427CC1C5EE97D003426DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF427D71C5EE97D003426DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF427B21C5EE97D003426DE = {
+			isa = PBXGroup;
+			children = (
+				0CF427BD1C5EE97D003426DE /* MockRemoteControl */,
+				0CF427D21C5EE97D003426DE /* MockRemoteControlTests */,
+				0CF427DD1C5EE97D003426DE /* MockRemoteControlUITests */,
+				0CF427BC1C5EE97D003426DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CF427BC1C5EE97D003426DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CF427BB1C5EE97D003426DE /* MockRemoteControl.app */,
+				0CF427CF1C5EE97D003426DE /* MockRemoteControlTests.xctest */,
+				0CF427DA1C5EE97D003426DE /* MockRemoteControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CF427BD1C5EE97D003426DE /* MockRemoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				0CF427BE1C5EE97D003426DE /* AppDelegate.swift */,
+				0CF427C01C5EE97D003426DE /* ViewController.swift */,
+				0CF427C21C5EE97D003426DE /* Main.storyboard */,
+				0CF427C51C5EE97D003426DE /* Assets.xcassets */,
+				0CF427C71C5EE97D003426DE /* LaunchScreen.storyboard */,
+				0CF427CA1C5EE97D003426DE /* Info.plist */,
+			);
+			path = MockRemoteControl;
+			sourceTree = "<group>";
+		};
+		0CF427D21C5EE97D003426DE /* MockRemoteControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CF427D31C5EE97D003426DE /* MockRemoteControlTests.swift */,
+				0CF427D51C5EE97D003426DE /* Info.plist */,
+			);
+			path = MockRemoteControlTests;
+			sourceTree = "<group>";
+		};
+		0CF427DD1C5EE97D003426DE /* MockRemoteControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0CF427DE1C5EE97D003426DE /* MockRemoteControlUITests.swift */,
+				0CF427E01C5EE97D003426DE /* Info.plist */,
+			);
+			path = MockRemoteControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CF427BA1C5EE97D003426DE /* MockRemoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF427E31C5EE97D003426DE /* Build configuration list for PBXNativeTarget "MockRemoteControl" */;
+			buildPhases = (
+				0CF427B71C5EE97D003426DE /* Sources */,
+				0CF427B81C5EE97D003426DE /* Frameworks */,
+				0CF427B91C5EE97D003426DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockRemoteControl;
+			productName = MockRemoteControl;
+			productReference = 0CF427BB1C5EE97D003426DE /* MockRemoteControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0CF427CE1C5EE97D003426DE /* MockRemoteControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF427E61C5EE97D003426DE /* Build configuration list for PBXNativeTarget "MockRemoteControlTests" */;
+			buildPhases = (
+				0CF427CB1C5EE97D003426DE /* Sources */,
+				0CF427CC1C5EE97D003426DE /* Frameworks */,
+				0CF427CD1C5EE97D003426DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CF427D11C5EE97D003426DE /* PBXTargetDependency */,
+			);
+			name = MockRemoteControlTests;
+			productName = MockRemoteControlTests;
+			productReference = 0CF427CF1C5EE97D003426DE /* MockRemoteControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0CF427D91C5EE97D003426DE /* MockRemoteControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CF427E91C5EE97D003426DE /* Build configuration list for PBXNativeTarget "MockRemoteControlUITests" */;
+			buildPhases = (
+				0CF427D61C5EE97D003426DE /* Sources */,
+				0CF427D71C5EE97D003426DE /* Frameworks */,
+				0CF427D81C5EE97D003426DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CF427DC1C5EE97D003426DE /* PBXTargetDependency */,
+			);
+			name = MockRemoteControlUITests;
+			productName = MockRemoteControlUITests;
+			productReference = 0CF427DA1C5EE97D003426DE /* MockRemoteControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CF427B31C5EE97D003426DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "August Moon";
+				TargetAttributes = {
+					0CF427BA1C5EE97D003426DE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					0CF427CE1C5EE97D003426DE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0CF427BA1C5EE97D003426DE;
+					};
+					0CF427D91C5EE97D003426DE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 0CF427BA1C5EE97D003426DE;
+					};
+				};
+			};
+			buildConfigurationList = 0CF427B61C5EE97D003426DE /* Build configuration list for PBXProject "MockRemoteControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0CF427B21C5EE97D003426DE;
+			productRefGroup = 0CF427BC1C5EE97D003426DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CF427BA1C5EE97D003426DE /* MockRemoteControl */,
+				0CF427CE1C5EE97D003426DE /* MockRemoteControlTests */,
+				0CF427D91C5EE97D003426DE /* MockRemoteControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CF427B91C5EE97D003426DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF427C91C5EE97D003426DE /* LaunchScreen.storyboard in Resources */,
+				0CF427C61C5EE97D003426DE /* Assets.xcassets in Resources */,
+				0CF427C41C5EE97D003426DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF427CD1C5EE97D003426DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF427D81C5EE97D003426DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CF427B71C5EE97D003426DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF427C11C5EE97D003426DE /* ViewController.swift in Sources */,
+				0CF427BF1C5EE97D003426DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF427CB1C5EE97D003426DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF427D41C5EE97D003426DE /* MockRemoteControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CF427D61C5EE97D003426DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF427DF1C5EE97D003426DE /* MockRemoteControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CF427D11C5EE97D003426DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CF427BA1C5EE97D003426DE /* MockRemoteControl */;
+			targetProxy = 0CF427D01C5EE97D003426DE /* PBXContainerItemProxy */;
+		};
+		0CF427DC1C5EE97D003426DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CF427BA1C5EE97D003426DE /* MockRemoteControl */;
+			targetProxy = 0CF427DB1C5EE97D003426DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CF427C21C5EE97D003426DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CF427C31C5EE97D003426DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0CF427C71C5EE97D003426DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CF427C81C5EE97D003426DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CF427E11C5EE97D003426DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0CF427E21C5EE97D003426DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0CF427E41C5EE97D003426DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MockRemoteControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moon.august.csc471.MockRemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CF427E51C5EE97D003426DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MockRemoteControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moon.august.csc471.MockRemoteControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0CF427E71C5EE97D003426DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MockRemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moon.august.csc471.MockRemoteControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockRemoteControl.app/MockRemoteControl";
+			};
+			name = Debug;
+		};
+		0CF427E81C5EE97D003426DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MockRemoteControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moon.august.csc471.MockRemoteControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MockRemoteControl.app/MockRemoteControl";
+			};
+			name = Release;
+		};
+		0CF427EA1C5EE97D003426DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MockRemoteControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moon.august.csc471.MockRemoteControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MockRemoteControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0CF427EB1C5EE97D003426DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MockRemoteControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moon.august.csc471.MockRemoteControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MockRemoteControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CF427B61C5EE97D003426DE /* Build configuration list for PBXProject "MockRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF427E11C5EE97D003426DE /* Debug */,
+				0CF427E21C5EE97D003426DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CF427E31C5EE97D003426DE /* Build configuration list for PBXNativeTarget "MockRemoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF427E41C5EE97D003426DE /* Debug */,
+				0CF427E51C5EE97D003426DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CF427E61C5EE97D003426DE /* Build configuration list for PBXNativeTarget "MockRemoteControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF427E71C5EE97D003426DE /* Debug */,
+				0CF427E81C5EE97D003426DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CF427E91C5EE97D003426DE /* Build configuration list for PBXNativeTarget "MockRemoteControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CF427EA1C5EE97D003426DE /* Debug */,
+				0CF427EB1C5EE97D003426DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CF427B31C5EE97D003426DE /* Project object */;
+}

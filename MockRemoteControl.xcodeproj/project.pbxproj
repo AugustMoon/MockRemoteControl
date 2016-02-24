@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C482EEA1C7024C200781CD0 /* DVRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C482EE91C7024C200781CD0 /* DVRViewController.swift */; };
 		0CF427BF1C5EE97D003426DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF427BE1C5EE97D003426DE /* AppDelegate.swift */; };
 		0CF427C11C5EE97D003426DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF427C01C5EE97D003426DE /* ViewController.swift */; };
 		0CF427C41C5EE97D003426DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF427C21C5EE97D003426DE /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C482EE91C7024C200781CD0 /* DVRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVRViewController.swift; sourceTree = "<group>"; };
 		0CF427BB1C5EE97D003426DE /* MockRemoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockRemoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF427BE1C5EE97D003426DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CF427C01C5EE97D003426DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				0CF427C51C5EE97D003426DE /* Assets.xcassets */,
 				0CF427C71C5EE97D003426DE /* LaunchScreen.storyboard */,
 				0CF427CA1C5EE97D003426DE /* Info.plist */,
+				0C482EE91C7024C200781CD0 /* DVRViewController.swift */,
 			);
 			path = MockRemoteControl;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CF427C11C5EE97D003426DE /* ViewController.swift in Sources */,
+				0C482EEA1C7024C200781CD0 /* DVRViewController.swift in Sources */,
 				0CF427BF1C5EE97D003426DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				0CF427E51C5EE97D003426DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CF427E61C5EE97D003426DE /* Build configuration list for PBXNativeTarget "MockRemoteControlTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				0CF427E81C5EE97D003426DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0CF427E91C5EE97D003426DE /* Build configuration list for PBXNativeTarget "MockRemoteControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				0CF427EB1C5EE97D003426DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
